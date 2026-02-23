@@ -2,6 +2,13 @@
 
 A fully on-chain Texas Hold'em poker game built on **Stellar Soroban** with **Noir Lang zero-knowledge proofs**. Players commit to their cards before the flop using Poseidon2 hashes, then prove their hand rank at showdown without revealing their hole cards — all verified cryptographically through a 3-layer security architecture.
 
+## Active Contract Addresses
+
+- **POKER_GAME_CONTRACT**  
+  [CC7VLQ76WDUNDTTNXMXFUJTI2CC64HRZMFKRROCGDYKBISCM6NJDI4SJ](https://stellar.expert/explorer/testnet/contract/CC7VLQ76WDUNDTTNXMXFUJTI2CC64HRZMFKRROCGDYKBISCM6NJDI4SJ)
+
+- **NOIR_VERIFIER_CONTRACT**  
+  [CAB7TUFKVPA6DQO2C7CTWMULCUPTAXYHUIEHJUZ3F7MQWJ4T7CENQAI5](https://stellar.expert/explorer/testnet/contract/CAB7TUFKVPA6DQO2C7CTWMULCUPTAXYHUIEHJUZ3F7MQWJ4T7CENQAI5)
 ---
 
 ## Table of Contents
@@ -27,8 +34,7 @@ A fully on-chain Texas Hold'em poker game built on **Stellar Soroban** with **No
 - [License](#license)
 
 ---
-## 🎥 Live Demo
-[![Zktexasholdem - Video Demo](https://img.youtube.com/vi/6m0Es4zb2MM/maxresdefault.jpg)]([https://www.youtube.com/watch?v=6m0Es4zb2MM])
+
 ## Architecture Overview
 
 ```
