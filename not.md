@@ -1,1 +1,0 @@
-"İki farklı ZK sistemi entegre ettik. Noir Lang ile Barretenberg proof generation tam çalışıyor. RISC Zero için NethermindEth'in stellar-risc0-verifier kontratını kullanacağız — verifier deploy aşamasında."
