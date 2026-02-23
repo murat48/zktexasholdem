@@ -1,0 +1,24 @@
+{
+  "name": "zk-poker-stellar",
+  "version": "1.0.0",
+  "description": "Zero-Knowledge Texas Hold'em Poker on Stellar",
+  "scripts": {
+    "dev": "cd frontend && pnpm dev",
+    "build": "cd frontend && pnpm build",
+    "build:contracts": "cd contracts && cargo build --target wasm32-unknown-unknown --release",
+    "build:circuits": "cd circuits && nargo compile",
+    "test": "cd frontend && pnpm test",
+    "test:contracts": "cd contracts && cargo test"
+  },
+  "keywords": [
+    "stellar",
+    "blockchain",
+    "poker",
+    "zero-knowledge",
+    "zk",
+    "noir",
+    "soroban"
+  ],
+  "author": "",
+  "license": "MIT"
+}

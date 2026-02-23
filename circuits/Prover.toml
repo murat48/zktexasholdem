@@ -1,0 +1,5 @@
+hole_cards = [10, 23]
+salt = "123456789012345678901234567890"
+card_commitment = "0x06c6ebbfc54719bd04096a6f9b59cc74c5c4c0a5a9e03917e4ca048109372454"
+community_cards = [0, 14, 28, 42, 5]
+claimed_rank = 1

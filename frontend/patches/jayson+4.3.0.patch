@@ -1,0 +1,24 @@
+diff --git a/node_modules/jayson/lib/client/http.js b/node_modules/jayson/lib/client/http.js
+index 9f87342..f9aa604 100644
+--- a/node_modules/jayson/lib/client/http.js
++++ b/node_modules/jayson/lib/client/http.js
+@@ -18,7 +18,18 @@ const { version } = require('../../package.json');
+ const ClientHttp = function(options) {
+   // accept first parameter as a url string
+   if(typeof(options) === 'string') {
+-    options = url.parse(options);
++    const _u = new URL(options);
++    options = {
++      protocol: _u.protocol,
++      hostname: _u.hostname,
++      host: _u.host,
++      port: _u.port || undefined,
++      path: _u.pathname + _u.search,
++      auth: _u.username
++        ? (_u.password ? _u.username + ':' + decodeURIComponent(_u.password) : _u.username)
++        : undefined,
++      href: _u.href,
++    };
+   }
+ 
+   if(!(this instanceof ClientHttp)) {

@@ -1,0 +1,45 @@
+{
+  "name": "zk-poker-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--disable-warning=DEP0169 --disable-warning=DEP0005' next dev --webpack",
+    "build": "NODE_OPTIONS='--disable-warning=DEP0169 --disable-warning=DEP0005' next build",
+    "start": "NODE_OPTIONS='--disable-warning=DEP0169 --disable-warning=DEP0005' next start",
+    "lint": "next lint",
+    "test": "vitest",
+    "type-check": "tsc --noEmit",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@creit.tech/stellar-wallets-kit": "^1.9.5",
+    "@noir-lang/acvm_js": "^1.0.0-beta.18",
+    "@noir-lang/backend_barretenberg": "^0.31.0",
+    "@noir-lang/noir_js": "^1.0.0-beta.18",
+    "@noir-lang/noirc_abi": "^1.0.0-beta.18",
+    "@noir-lang/types": "^1.0.0-beta.18",
+    "@stellar/stellar-sdk": "^14.5.0",
+    "clsx": "^2.1.0",
+    "next": "16.1.6",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "tailwind-merge": "^2.2.0",
+    "zkverifyjs": "^2.1.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/estree": "^1.0.8",
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^10.0.0",
+    "eslint-config-next": "16.1.6",
+    "patch-package": "^8.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5",
+    "vitest": "^1.3.0"
+  }
+}
