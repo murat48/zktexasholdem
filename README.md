@@ -28,7 +28,7 @@ A fully on-chain Texas Hold'em poker game built on **Stellar Soroban** with **No
 
 ---
 ## 🎥 Live Demo
-[![Zktexasholdem - Video Demo](https://img.youtube.com/vi/6m0Es4zb2MM/maxresdefault.jpg)]([https://www.youtube.com/watch?v=6m0Es4zb2MM](https://youtu.be/RZaMhQO9pdw))
+[![Zktexasholdem - Video Demo](https://img.youtube.com/vi/6m0Es4zb2MM/maxresdefault.jpg)]([https://www.youtube.com/watch?v=6m0Es4zb2MM])
 ## Architecture Overview
 
 ```
