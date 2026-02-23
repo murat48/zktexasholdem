@@ -1,4 +1,4 @@
-# ZK Poker — Zero-Knowledge Texas Hold'em on Stellar
+# ZK TEXAS HOLD'EM Poker — Zero-Knowledge Texas Hold'em on Stellar
 
 A fully on-chain Texas Hold'em poker game built on **Stellar Soroban** with **Noir Lang zero-knowledge proofs**. Players commit to their cards before the flop using Poseidon2 hashes, then prove their hand rank at showdown without revealing their hole cards — all verified cryptographically through a 3-layer security architecture.
 
@@ -514,8 +514,8 @@ texasholdemv19/
 ### 1. Clone and Install
 
 ```bash
-git clone <repo-url>
-cd texasholdemv19
+git clone [<repo-url>](https://github.com/murat48/zktexasholdem)
+cd zktexasholdem
 
 # Install frontend dependencies
 cd frontend
