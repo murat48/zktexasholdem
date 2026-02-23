@@ -10,7 +10,8 @@ A fully on-chain Texas Hold'em poker game built on **Stellar Soroban** with **No
 - **NOIR_VERIFIER_CONTRACT**  
   [CAB7TUFKVPA6DQO2C7CTWMULCUPTAXYHUIEHJUZ3F7MQWJ4T7CENQAI5](https://stellar.expert/explorer/testnet/contract/CAB7TUFKVPA6DQO2C7CTWMULCUPTAXYHUIEHJUZ3F7MQWJ4T7CENQAI5)
 ---
-
+<br>
+<img src="/howwork.jpg" alt="howworks" width="400"/><br> <br><img src="/howworks2.jpg" alt="howworks2" width="400"/>
 ## Table of Contents
 
 - [Architecture Overview](#architecture-overview)
